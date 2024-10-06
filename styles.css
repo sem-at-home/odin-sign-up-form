@@ -55,10 +55,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-color: lightgray;
+  background-color: whitesmoke;
 }
 
 .form-intro-container {
+  box-shadow: 0px 1px 2px lightgray;
   flex: 1;
   font-weight: bolder;
   font-size: larger;
@@ -96,6 +97,7 @@ form div {
 }
 
 .form-button-container {
+  box-shadow: inset 0px 2px 2px lightgray;
   flex: 3;
   padding: 20px 40px 30px;
 }
