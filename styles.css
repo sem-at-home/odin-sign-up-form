@@ -109,3 +109,9 @@ form div {
   border: 1px;
   border-radius: 3px;
 }
+
+a {
+  color: darkgreen;
+  font-weight: 900;
+  text-decoration: none;
+}
