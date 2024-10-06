@@ -46,30 +46,44 @@ body {
 
 .main {
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
   flex: 3;
   flex-direction: column;
 }
 
 .form-intro-container, .form-button-container {
   display: flex;
-  flex: 1;
   flex-direction: column;
   gap: 20px;
   background-color: lightgray;
 }
 
 .form-intro-container {
-  padding: 100px 40px 0px;
+  flex: 1;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 80px 40px;
+  justify-content: end;
 }
 
 .form-container {
   flex: 1;
+  gap: 20px;
   display: flex;
   flex-direction: column;
   padding: 10px 40px;
 }
 
+.form-header {
+  font-weight: bolder;
+  font-size: larger;
+}
+
 form {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 10px;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
@@ -82,5 +96,16 @@ form div {
 }
 
 .form-button-container {
+  flex: 3;
   padding: 20px 40px 30px;
+}
+
+.main button {
+  color: white;
+  font-size: large;
+  background-color: #596D48;
+  max-width: 250px;
+  padding: 10px 40px;
+  border: 1px;
+  border-radius: 3px;
 }
